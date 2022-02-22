@@ -10,3 +10,21 @@
      #   print("Connecting to database failed")
       #  print("error:",error)
        # time.sleep(2)
+
+
+Heroku commands:
+heroku login
+heroku create <app_name>
+git push heroku main
+heroku logs -t
+
+
+
+
+
+
+git commands:
+git init
+git add --all
+git commit -m "<message>"
+git push origin main

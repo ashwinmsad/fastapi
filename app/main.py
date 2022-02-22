@@ -7,12 +7,13 @@ from . import models
 from .routers import post,user,auth,vote
 
 
-
+#this code id for creating database tables without alembic
 #models.Base.metadata.create_all(bind=engine)
 
 app = FastAPI()
 
-
+#CORSM is for accessing this app from all the websites
+# * ,Eg: www.google.com, www.youtube.com
 origins = ["*"]
 
 app.add_middleware(
