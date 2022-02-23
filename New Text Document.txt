@@ -17,7 +17,8 @@ heroku login
 heroku create <app_name>
 git push heroku main
 heroku logs -t
-
+heroku addons
+heroku addons:create heroku-postgresql:<PLAN_NAME>
 
 
 
